@@ -1,5 +1,6 @@
 import React from "react";
 import BotCard from ".git/BotCard";
+import BotCard from "./BotCollection.jsx";
 
 function BotCollection({ bots, onSelect }) {
   return (
@@ -8,7 +9,7 @@ function BotCollection({ bots, onSelect }) {
         <BotCard key={bot.id} bot={bot} onClick={onSelect} />
       ))}
     </div>
-  );
+  ); 
 }
 
 export default BotCollection;

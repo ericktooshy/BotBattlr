@@ -1,4 +1,5 @@
 import React from "react";
+import BotCard from "./BotCollection.jsx";
 
 function BotCard({ bot, onClick, showX, onDischarge }) {
   const { name, bot_class, health, damage, armor, catchphrase, avatar_url } = bot;
