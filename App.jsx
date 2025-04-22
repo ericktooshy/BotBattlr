@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import BotCollection from "./BotCollection";
-import YourBotArmy from "./YourBotArmy";
-import BotSpecs from "./BotSpecs";
-import SortBar from "./SortBar";
-import FilterBar from "./FilterBar";
-import "./index.css";
+import BotCollection from "./src/Components/BotCollection";
+import BotSpecs from "./src/Components/BotSpecs";
+import FilterBar from "./src/Components/FilterBar";
+import SortBar from "./src/Components/SortBar";
+import YourBotArmy from "./src/Components/YourBotArmy";
+import "./App.css";
 
 function App() {
   const [bots, setBots] = useState([]);
