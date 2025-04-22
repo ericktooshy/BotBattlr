@@ -1,5 +1,5 @@
 import React from "react";
-import BotCard from "./BotCard";
+import BotCard from ".git/BotCard";
 
 function BotCollection({ bots, onSelect }) {
   return (
